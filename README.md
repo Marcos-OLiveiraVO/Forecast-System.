@@ -15,12 +15,8 @@
 
 ## 📍 Para os Testes foi utilizado: 
 
-
      jest
-    
-
-
-
+   
 ## :books: Funcionalidades
 
 
@@ -44,9 +40,11 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
       npm run test
       
 ## :soon: Implementação futura
-     Em Progresso
+     Em progresso
 
 <h4> 🛠 Projeto está sendo desenvolvido utilizando as seguintes tecnologias: <h4>
+
+     Em progresso
 
 
 
