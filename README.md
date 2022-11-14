@@ -1,9 +1,12 @@
 
 
-<h1> Microserviço de gerenciamento de clima para praias</h1>
+<h1> Forecast for beaches.</h1>
 
 ## :memo: Descrição
-<h4>  </h4>
+<h4>A criação desse sistema vem com a ideia de que para surfar em alguma praia, voce primeiro precisar saber como esta o clima nela certo ?
+com base nisso criei esse serviço no qual disponibiliza a previsão do clima para determinadas praias, sendo elas agrupadas por dia/hora, sendo avaliadas por estrelas de 1 até 5, sendo 1 a pior para surfar e 5 a melhor para surfar no momento.
+
+</h4>
 
 
 <h4></h4>
@@ -18,6 +21,10 @@
      jest
    
 ## :books: Funcionalidades
+- Previsão de tempo para praias.
+- avaliação de praias feitas por estrelas.
+- login de usuário.
+
 
 
 ## :rocket: Rodando o projeto
@@ -33,18 +40,29 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
       
 <h5> Testes de integração: </h5>
 
-     npm run test:integration
+     npm run test:functional
      
 <h5> Testes de unidades + Integração: </h5>     
 
       npm run test
       
 ## :soon: Implementação futura
-     Em progresso
+     - criação do usuario.
+     - geração de token.
+     - implementação do banco de dados.
+     - CI/CD
+     - Logger
 
 <h4> 🛠 Projeto está sendo desenvolvido utilizando as seguintes tecnologias: <h4>
 
-     Em progresso
+     -TypesScript
+     -NodeJs
+     -OvernightJs/Express
+     -Jest
+     -Axios
+     -MongoDB
+     -Clean Arquitecture
+     
 
 
 
