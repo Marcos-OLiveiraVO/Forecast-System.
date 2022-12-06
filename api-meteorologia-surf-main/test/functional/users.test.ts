@@ -1,9 +1,10 @@
 import { User } from '@src/models/user';
+import AuthService from '@src/services/Auth';
 
 describe('Users test functional', () => {
   beforeEach(async () => await User.deleteMany({}));
   describe('When create a new user', () => {
-    it('Should create new user with successfully', async () => {
+    it('Should successfully create a new user with encrypted password', async () => {
       const newUser = {
         name: 'John doe',
         email: 'john@mail.com',
@@ -13,7 +14,15 @@ describe('Users test functional', () => {
       const response = await global.testRequest.post('/users').send(newUser);
 
       expect(response.status).toBe(201);
-      expect(response.body).toEqual(expect.objectContaining(newUser));
+      await expect(
+        AuthService.comparePasswords(newUser.password, response.body.password)
+      ).resolves.toBeTruthy();
+      expect(response.body).toEqual(
+        expect.objectContaining({
+          ...newUser,
+          ...{ password: expect.any(String) },
+        })
+      );
     });
   });
 
