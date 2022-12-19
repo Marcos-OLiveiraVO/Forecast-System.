@@ -3,8 +3,13 @@
 <h1> Forecast for beaches.</h1>
 
 ## :memo: Descrição
-<h4>A criação desse sistema vem com a ideia de que para surfar em alguma praia, voce primeiro precisar saber como esta o clima nela certo ?
-com base nisso criei esse serviço no qual disponibiliza a previsão do clima para determinadas praias, sendo elas agrupadas por dia/hora, sendo avaliadas por estrelas de 1 até 5, sendo 1 a pior para surfar e 5 a melhor para surfar no momento.
+<h4>Este é um microserviço projetado para gerenciar e fornecer informações sobre o clima em praias. Ele pode ajudar a planejar suas atividades na praia, fornecer alertas sobre condições climáticas adversas e fornecer informações atualizadas sobre temperatura, umidade, vento e outros fatores meteorológicos importantes. 
+<br><br>
+Este microserviço é útil para aqueles que desejam aproveitar ao máximo suas férias na praia ou simplesmente manter-se informado sobre as condições climáticas em sua área de praia favorita.
+
+
+<br><br>
+As Avaliações das praias são feitas por estrelas onde vão de 1  para 5 estrelas.
 
 </h4>
 
